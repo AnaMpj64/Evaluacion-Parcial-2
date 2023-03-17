@@ -120,16 +120,10 @@ function init() {
   };
 
   $('#tablaCocina').DataTable({
-    "scrollY": "500px", // Altura del área de visualización
-    "scrollCollapse": true, // Hace que la tabla colapse cuando el contenido es más grande que el área de visualización
-    "paging": true, // Habilita la paginación
-    "searching": false, // Habilita la búsqueda
-    "searchDelay": 500, // Establece un retraso de 500 milisegundos antes de realizar la búsqueda
-    "bFilter": true, // Habilita el filtrado (búsqueda)
-    "columnDefs": [{
-        "targets": [1, 5], // Las columnas en las que se realizará la búsqueda (0, 1, 2)
-        "type": "string" // El tipo de datos que se utilizarán para la búsqueda (cadena de texto)
-    }]
+    "scrollY": "500px", 
+    "scrollCollapse": true, 
+    "paging": true, 
+    "searching": false
 });
   
   init();

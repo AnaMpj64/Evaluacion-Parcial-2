@@ -70,8 +70,8 @@ table {
   }
 
   h1, img {
-    display: block; /* Asegura que el ancho del elemento es el mismo que su contenido */
-    margin: 0 auto; /* Centra el elemento horizontalmente */
+    display: block; 
+    margin: 0 auto; 
     align-items: center;
     text-align: center;
     align-content: center;
